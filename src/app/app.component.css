@@ -1,37 +1,8 @@
 .center {
   position: absolute;
   transform: translate(-50%, -50%);
-  /* left: 50%;
-  top: 40%; */
-  left: 70%;
-  top: 87%;
-}
-
-.facebook {
-  background-image: url('../assets/images/facebook.png');
-  background-size: cover;
-  background-position: center;
-  width: 30px;
-  height: 30px;
-  /* filter: invert(1); */
-}
-
-.youtube {
-  background-image: url('../assets/images/social-youtube.png');
-  background-size: cover;
-  background-position: center;
-  width: 30px;
-  height: 30px;
-  /* filter: invert(1); */
-}
-
-.linkedin {
-  background-image: url('../assets/images/social-linkedin.png');
-  background-size: cover;
-  background-position: center;
-  width: 30px;
-  height: 30px;
-  /* filter: invert(1); */
+  left: 50%;
+  top: 39%;
 }
 
 .margin_top {
@@ -40,17 +11,17 @@
 }
 
 img {
-  width: 800px;
+  width: 300px;
 }
 
 .cor_caixa {
-  /* background-color:#01A6AE; */
   padding-top: 10px;
   margin: 0;
 }
 
 h5 {
   font-family: 'Montserrat', sans-serif;
+  color: white;
   font-size: 21px;
   margin-top: 20px;
   text-align: justify;
@@ -59,6 +30,7 @@ h5 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  color: white;
   font-size: 15px;
   text-align: justify;
 }
@@ -71,4 +43,8 @@ p {
   text-transform: lowercase;
   width: 180px;
   font-size: 21px;
+}
+
+.alinhamento-logo {
+  text-align: left;
 }
