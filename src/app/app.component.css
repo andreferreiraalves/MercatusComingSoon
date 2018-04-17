@@ -48,3 +48,9 @@ p {
 .alinhamento-logo {
   text-align: left;
 }
+
+.anydesk {
+  color: white;
+    border-bottom: double;
+    font-size: 15px;
+}
